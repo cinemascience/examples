@@ -44,4 +44,8 @@ Then you can recreate everything using make:
 
 # Advanced examples
 
-- `show_images_with_cinema_database.ipynb` This example shows how to create and read a cinema database, and iterate over images contained in the database.
+- `show_images_with_cinema_database.ipynb` This example shows how to create and read a cinema database, and iterate over images contained in the database. You can run this from the `scratch` directory like this:
+
+```
+    jupyter notebook show_images_with_cinema_database.ipynb
+```
