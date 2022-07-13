@@ -16,6 +16,14 @@ This command will bring the database up in a different viewer:
     cinema view --databases data/sphere.cdb --viewer explorer
 ```
 
+## Starting a server on example databases
+
+To view the databases, type this command in the shell, which will start a server. You can then view the database at the URL that is printed to the shell:
+
+```
+    cinema server --databases data/sphere.cdb
+```
+
 ## Managing the examples with `make` targets
 
 To manage the python environment and the example, you can clean each of them, using the `make` targets:
