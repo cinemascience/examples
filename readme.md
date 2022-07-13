@@ -12,11 +12,11 @@ These examples require:
 To get started:
 
 ```
-    git clone https://github.com/cinemascience/training.git
-    cd training
+    git clone https://github.com/cinemascience/examples.git
+    cd examples
 ```
 
-Next, `cd` into the example you want to work with. Then create a local python environment for that example:
+Next, `cd` into the example you want to work with. Then create a local python environment for that example. This will install all of the necessary python modules, as well as the `cinema` command line tool:
 
 ```
     python3 -m venv exenv
