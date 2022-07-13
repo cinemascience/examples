@@ -1,4 +1,4 @@
-# Cinema Training Examples
+# Cinema Examples
 
 This is a set of examples to express the concepts behind Cinema, and provide a way to explore the algorithmic, viewing and processing possibilities that Cinema provides.
 
