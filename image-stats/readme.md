@@ -49,7 +49,7 @@ The setup steps have created a `scratch/` directory that you can work in without
 
 # Examples
 
-- `'show_image.ipynb` This is the most basic example, showing how to load an image and run some `opencv` methods. Run it with this command:
+- `show_image.ipynb` This is the most basic example, showing how to load an image and run some `opencv` methods. Run it with this command:
 
 ```
     jupyter notebook show_image.ipynb
