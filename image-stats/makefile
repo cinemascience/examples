@@ -10,7 +10,7 @@ clean-python-env:
 	rm -rf build
 	rm -rf image_stats.egg-info
 	rm -rf dist
-	rm -rf 'Local State'
+	rm -rf 'Local State' Variations
 
 python-env:
 	@echo "Creating python environment ..."
