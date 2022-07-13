@@ -19,6 +19,7 @@ To get started:
 Next, `cd` into the example you want to work with. Then run `make example`. This will create the local environment for the example. 
 
 ```
+    cd image-stats
     make example
 ```
 
