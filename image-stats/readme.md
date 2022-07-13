@@ -14,9 +14,30 @@ This command will bring the database up in a different viewer:
     cinema view --databases data/sphere.cdb --viewer explorer
 ```
 
-To run the example:
+The setup steps have created a `scratch/` directory that you can work in without polluting the main directory. To run the example:
 
 ```
     cd scratch
     jupyter notebook show_image.ipynb
+```
+
+To manage the python environment and the example, you can clean each of them, using the `make` targets:
+
+```
+    make clean-python-env
+
+    OR
+
+    make clean-example
+```
+
+Then you can recreate everything using make:
+
+```
+    make pythone-env
+
+    OR
+
+    make example
+
 ```
