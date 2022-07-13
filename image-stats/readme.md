@@ -41,3 +41,7 @@ Then you can recreate everything using make:
     make example
 
 ```
+
+# Advanced examples
+
+- `show_images_with_cinema_database.ipynb` This example shows how to create and read a cinema database, and iterate over images contained in the database.

@@ -25,6 +25,7 @@ example:
 	@mkdir scratch
 	@cp -rf ../data scratch
 	@cp show_image.ipynb scratch	
+	@cp show_images_with_cinema_database.ipynb scratch	
 
 clean-example:
 	rm -rf data
