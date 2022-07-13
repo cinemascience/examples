@@ -1,11 +1,16 @@
 SHELL=/bin/bash
 ENVNAME=exenv
 
+all: python-env example
+
+clean-all: clean-python-env clean-example
+
 clean-python-env:
 	rm -rf $(ENVNAME)
 	rm -rf build
 	rm -rf image_stats.egg-info
 	rm -rf dist
+	rm -rf 'Local State'
 
 python-env:
 	@echo "Creating python environment ..."

@@ -20,7 +20,7 @@ Next, `cd` into the example you want to work with. Then run `make example`. This
 
 ```
     cd image-stats
-    make example
+    make all
 ```
 
 Next, source the python environment for the local example:
