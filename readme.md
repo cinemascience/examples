@@ -16,12 +16,16 @@ To get started:
     cd examples
 ```
 
-Next, `cd` into the example you want to work with. Then create a local python environment for that example. This will install all of the necessary python modules, as well as the `cinema` command line tool:
+Next, `cd` into the example you want to work with. Then run `make example`. This will create the local environment for the example. 
 
 ```
-    python3 -m venv exenv
-    source exenv/bin/activate
-    python3 -m pip install --upgrade pip
-    pip3 install wheel
-    pip3 install .
+    make example
 ```
+
+Next, source the python environment for the local example:
+
+```
+    source exenv/bin/activate
+```
+
+Now, you will be set up to run the examples. Refer to the `readme.md` file in each subdirectory for specific instructions for that example.
