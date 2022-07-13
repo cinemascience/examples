@@ -2,6 +2,8 @@
 
 **NOTE:** Before you can run examples in this directory, you need to follow the instructions on the main repository `readme`.
 
+## Viewing example databases
+
 To view the databases, type this command in the shell:
 
 ```
@@ -14,12 +16,7 @@ This command will bring the database up in a different viewer:
     cinema view --databases data/sphere.cdb --viewer explorer
 ```
 
-The setup steps have created a `scratch/` directory that you can work in without polluting the main directory. To run the example:
-
-```
-    cd scratch
-    jupyter notebook show_image.ipynb
-```
+## Managing the examples with `make` targets
 
 To manage the python environment and the example, you can clean each of them, using the `make` targets:
 
@@ -40,6 +37,14 @@ Then you can recreate everything using make:
 
     make example
 
+```
+
+## The `scratch` directory
+The setup steps have created a `scratch/` directory that you can work in without polluting the main directory. To run the example:
+
+```
+    cd scratch
+    jupyter notebook show_image.ipynb
 ```
 
 # Advanced examples
