@@ -40,14 +40,20 @@ Then you can recreate everything using make:
 ```
 
 ## The `scratch` directory
-The setup steps have created a `scratch/` directory that you can work in without polluting the main directory. To run the example:
+The setup steps have created a `scratch/` directory that you can work in without polluting the main directory. To run the simple example:
 
 ```
     cd scratch
     jupyter notebook show_image.ipynb
 ```
 
-# Advanced examples
+# Examples
+
+- `'show_image.ipynb` This is the most basic example, showing how to load an image and run some `opencv` methods. Run it with this command:
+
+```
+    jupyter notebook show_image.ipynb
+```
 
 - `show_images_with_cinema_database.ipynb` This example shows how to create and read a cinema database, and iterate over images contained in the database. You can run this from the `scratch` directory like this:
 
