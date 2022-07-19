@@ -23,7 +23,8 @@ setuptools.setup(
         "Pillow",
         "pytest",
         "opencv-python",
-        "cinemasci"
+        "cinemasci",
+        "markupsafe==2.0.1"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
